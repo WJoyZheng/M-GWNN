@@ -1,4 +1,4 @@
-# M-GWNN
+# M-GWNN: Multi-granularity graph wavelet neural networks for semi-supervised node classification. Zheng et al., Neurocomputing 2020. [pdf](https://doi.org/10.1016/j.neucom.2020.10.033)
 
 ## Description
 
@@ -7,7 +7,7 @@ We propose a multi-granularity graph neural network approach that combines the p
 
 
 ## Requirements
-
+- Python (3.6)
 - Tensorflow (1.9.0)
 
 
@@ -15,7 +15,7 @@ We propose a multi-granularity graph neural network approach that combines the p
 
 You can conduct node classification experiments on citation network (Cora, Citeseer, Pubmed) or NELL with the following commands:
 
-For example:
+Run example:
 ```bash
 python train.py --dataset cora --epochs 200 --early_stopping 1000 --learning_rate 0.01 --coarsen_level 2 --dropout 0.8 --weight_decay 9e-3 --hidden 32  --wavelet_s 0.6 --threshold 9e-6 
 ```
