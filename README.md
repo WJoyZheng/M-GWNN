@@ -1,5 +1,6 @@
 # M-GWNN
-> M-GWNN: Multi-granularity graph wavelet neural networks for semi-supervised node classification. Zheng et al., Neurocomputing 2020. [pdf](https://doi.org/10.1016/j.neucom.2020.10.033)
+
+M-GWNN: Multi-granularity graph wavelet neural networks for semi-supervised node classification. Zheng et al., Neurocomputing 2020.
 
 ## Description
 
